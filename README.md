@@ -1,4 +1,4 @@
-# Bioanalizator — Fish Biometric Data Analysis
+# Bioanalizator - Fish Biometric Data Analysis
 
 **Version:** 1.0  
 **Software metadata author:** ВНИИР (VNIIR)  
