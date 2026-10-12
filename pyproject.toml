@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bioanalizator"
+version = "1.0"
+description = "Анализ биометрических индексов: статистика, регрессии, графики"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "ВНИИР" }]
+dependencies = [
+    "customtkinter>=5.2.2",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "pillow>=9.0",
+    "openpyxl>=3.1",
+    "xlrd>=2.0",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools]
+packages = ["bioanalizator"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
