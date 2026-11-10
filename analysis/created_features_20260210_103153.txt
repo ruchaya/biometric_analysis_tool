@@ -1,0 +1,8 @@
+Созданные признаки:
+==================================================
+✓ Volume_Estimate
+  Формула: Length × Girth × Max_Height
+✓ Length_Girth_Ratio
+  Формула: Length / Girth
+✓ Cross_Section_Area
+  Формула: π × (Girth/2π)²

@@ -1,0 +1,17 @@
+Настройка гиперпараметров для модели: Голосование регрессоров
+==================================================
+Лучший R² (CV): 0.863888
+Лучшие параметры:
+  model__et__max_depth: 10
+  model__et__n_estimators: 100
+  model__knn__n_neighbors: 3
+  model__knn__weights: distance
+  model__lasso__eps: 0.0001
+  model__lasso__n_alphas: 100
+  model__rf__max_depth: 10
+  model__rf__n_estimators: 50
+  model__ridge__learning_rate: 0.05
+  model__ridge__max_depth: 3
+  model__ridge__n_estimators: 100
+  model__weights: (0.2, 0.1, 0.15, 0.25, 0.3)
+Test R² (настроенная): 0.939487

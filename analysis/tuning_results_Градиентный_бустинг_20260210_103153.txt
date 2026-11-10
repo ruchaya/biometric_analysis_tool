@@ -1,0 +1,10 @@
+Настройка гиперпараметров для модели: Градиентный бустинг
+==================================================
+Лучший R² (CV): 0.832011
+Лучшие параметры:
+  model__learning_rate: 0.05
+  model__max_depth: 3
+  model__min_samples_leaf: 1
+  model__min_samples_split: 10
+  model__n_estimators: 200
+Test R² (настроенная): 0.944792

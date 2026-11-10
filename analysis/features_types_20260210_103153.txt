@@ -1,0 +1,14 @@
+Типы признаков:
+==================================================
+  ✓ Length
+  ✓ Commercial_Length
+  ✓ Girth
+  ✓ Max_Height
+  ✓ Age
+  ✓ Volume_Estimate
+  ✓ Length_Girth_Ratio
+  ✓ Cross_Section_Area
+
+Категориальные признаки (2):
+  ✓ Примечание
+  ✓ Пол

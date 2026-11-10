@@ -1,0 +1,10 @@
+Настройка гиперпараметров для модели: Случайный лес
+==================================================
+Лучший R² (CV): 0.807417
+Лучшие параметры:
+  model__max_depth: 20
+  model__max_features: 0.8
+  model__min_samples_leaf: 1
+  model__min_samples_split: 2
+  model__n_estimators: 50
+Test R² (настроенная): 0.941536
