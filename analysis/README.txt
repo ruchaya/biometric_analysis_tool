@@ -1,4 +1,24 @@
 ============================================================
+FOLDER CONTAINING FISH WEIGHT ANALYSIS RESULTS (UPDATED)
+============================================================
+
+This folder contains the results of an analysis of fish weight data, including a comparison of models before and after hyperparameter tuning. MAIN FILES:
+1. fish_weight_predictions_all_models_XXXXXX.xlsx - Primary file containing PREDICTIONS (5 sheets, including those from tuned models)
+CONTAINS THE FOLLOWING SHEETS:
+- All_predictions: Full prediction results for all models
+- Summary_of_all_models: Performance comparison of all models (default and tuned)
+- Best_predictions: The 10 most accurate predictions from the best-performing model
+- Worst_predictions: The 10 least accurate predictions from the best-performing model
+- Error_statistics: Detailed error statistics for all models
+
+2. analysis_report_XXXXXX.txt - Comprehensive analysis report
+3. *.png files - Charts and visualizations for all models
+4. *.xlsx files - Additional data and results
+5. *.txt files - Supplementary information and tuning logs
+
+LAST UPDATED: 2026-11-10
+
+============================================================
 ПАПКА С РЕЗУЛЬТАТАМИ АНАЛИЗА ВЕСА РЫБ (ОБНОВЛЕНО)
 ============================================================
 
